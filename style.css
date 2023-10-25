@@ -1,0 +1,123 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: lightslategrey;
+    background: lightgrey;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+img {
+    display: cube;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40%; 
+    border-radius: 80px; 
+}
+
+body::after {
+    background: lightgrey; 
+    position:static; 
+    top: 0; 
+    left: 0; 
+    width: 140%; 
+    height: 100%; 
+    z-index: -1; 
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 30px;
+    height: 400px;
+}
+
+h1:first-of-type {
+    color: lightslategrey;
+    text-align: center; 
+    padding: 20px 0; 
+    font-weight: bold;
+}
+
+#studies h1 {
+    color: lightgrey; 
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 30px;
+    width: 700px;
+    height: 250px;
+    margin: 40px -70px;
+    padding: 20px;
+
+}
+
+.Rox {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    height: 140px;
+    margin: 40px -70px;
+    padding: 30px;
+    width: 680px;
+
+}
+
+h1, h2, h3 {
+    color: lightslategrey; 
+    text-align: center;
+    padding: 20px 0px; 
+    margin: 0 auto;
+}
+
+img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%; 
+    border-radius: 150px; 
+}
+
+
+p {
+    text-align: justify; 
+    color: white; 
+    line-height: 1.6; 
+    margin: 30;
+    text-align: center;
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #lightgrey;
+}
+
+a:visited {
+    color: lightcyan; 
+}
+
+
+a:active {
+    color: white; 
+}
+
+ul {
+    list-style-type: none; 
+}
+
+
+.LikediN {
+    width: 60px;
+    margin: 10px 250px;
+    padding: 0px auto;
+}
+
+.Facebok{
+    width: 60px;
+    margin: -82px 390px;
+    padding: 0px auto;
+}
